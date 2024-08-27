@@ -1,4 +1,4 @@
-import { iconList } from '../../assets/icons';
+import { iconList } from '../../../assets/icons';
 import styles from './IconLinkStyles.module.css';
 
 export const IconLink = ({ title, imgSrc, imgAlt, ...props }) => {

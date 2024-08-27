@@ -1,13 +1,13 @@
 .iconLink {
   max-width: 50px;
   a {
-    display: block;;
+    display: block;
     img {
       height: 100%;
       width: 100%;
     }
   }
 }
-    .hidden {
-     visibility: hidden;
-    }
+.hidden {
+  visibility: hidden;
+}
