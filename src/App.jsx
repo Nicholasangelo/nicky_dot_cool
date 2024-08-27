@@ -1,32 +1,16 @@
-import { useState } from "react";
-import { IconLink } from "./Components/IconLink";
-import viteLogo from "/vite.svg";
+// import { GameBoard } from "./Components/GameBoard";
+import { Welcome } from "./Components/Welcome";
+
 import "./App.css";
 
 function App() {
-  const [count, setCount] = useState(0);
 
   return (
-    <>
-      <div>
-        <a href="https://vitejs.dev" target="_blank">
-          <img src={viteLogo} className="logo" alt="Vite logo" />
-        </a>
-      </div>
-      <h1>Vite + React</h1>
-      <div className="card">
-        <IconLink imgSrc="gmail" />
-        <button onClick={() => setCount((count) => count + 1)}>
-          count is {count}
-        </button>
-        <p>
-          Edit <code>src/App.jsx</code> and save to test HMR
-        </p>
-      </div>
-      <p className="read-the-docs">
-        Click on the Vite and React logos to learn more
-      </p>
-    </>
+    <main id="main">
+      <header className="header"></header>
+        <Welcome />
+      <footer className="footer"></footer>
+    </main>
   );
 }
 

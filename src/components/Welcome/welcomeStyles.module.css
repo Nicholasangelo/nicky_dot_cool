@@ -1,0 +1,22 @@
+.nameContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: baseline;
+  height: 100%;
+  span {
+    width: 100%;
+    font-size: 10vw;
+    line-height: 0.7;
+    padding: 0;
+  }
+}
+.dot {
+  width: 100%;
+  :not(first-child) {
+    opacity: 0.6;
+  }
+}
+.cool {
+  width: 100%;
+  letter-spacing: 4vw;
+}

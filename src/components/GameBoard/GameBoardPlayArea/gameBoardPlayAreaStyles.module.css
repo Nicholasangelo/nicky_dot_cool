@@ -1,0 +1,10 @@
+.wrapper {
+  flex-basis: 65%;
+  overflow: hidden;
+  &.smash-false {
+    cursor: url(../../../assets/game/smash.png), auto;
+  }
+  &.smash-true {
+    cursor: url(../../../assets/game/smash2.png), auto;
+  }
+}
