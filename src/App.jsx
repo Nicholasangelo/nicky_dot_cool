@@ -1,7 +1,7 @@
 // import { GameBoard } from "./Components/GameBoard";
-import { Header } from "./Components/Header";
-import { Welcome } from "./Components/Welcome";
-import { Sections } from "./Components/Sections";
+import { Header } from "./components/Header";
+import { Welcome } from "./components/Welcome";
+import { Sections } from "./components/Sections";
 import "./App.css";
 
 function App() {
