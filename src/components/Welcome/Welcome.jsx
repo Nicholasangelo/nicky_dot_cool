@@ -1,12 +1,12 @@
 import styles from './welcomeStyles.module.css';
-
+import DotCool from '../../assets/dot_cool.svg';
 const Welcome = () => {
   return (
+    <>
       <div className={styles.nameContainer}>
-        <span className={styles.full}>NICKY B</span>
-        <span className={styles.dot}>D<span>O</span>T</span>
-        <span className={styles.cool}>COOL</span>
+      <img src={DotCool} />
       </div>
+    </>
   )
 }
 
