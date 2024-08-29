@@ -1,10 +1,25 @@
 #root {
-  max-width: 1280px;
-  margin: 0 auto;
-  padding: 2rem;
-  text-align: center;
+  width: 100%;
 }
 
+#main {
+  display: flex;
+  flex-direction: column;
+  gap: 33px;
+  justify-content: space-between;
+  padding: 0 90px
+  background: azure;
+  background: antiqueWhite;
+  background: crimson;
+  background: darkGray;
+  background: deeppink;
+  background: bisque;
+
+}
+.footer {
+  height: 60px;
+  width: 100%;
+}
 .logo {
   height: 6em;
   padding: 1.5em;
@@ -33,10 +48,3 @@
   }
 }
 
-.card {
-  padding: 2em;
-}
-
-.read-the-docs {
-  color: #888;
-}

@@ -1,0 +1,17 @@
+.header {
+  width: 100%;
+  height: 20px;
+  padding: 5px 40px;
+  transition: all 1s ease;
+  img {
+    width: 33%;
+  }
+}
+
+.sticky {
+  position: fixed;
+  height: 40px;
+  top: 0;
+  left: 0;
+  z-index: 1000;
+}

@@ -1,0 +1,17 @@
+.wrapper {
+  font-family: "Pixelify Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+  width: 100%;
+  .header {
+    h1 {
+      font-size: 30px;
+    }
+  }
+
+  .section {
+    display: flex;
+    flex-direction: row;
+  }
+}
