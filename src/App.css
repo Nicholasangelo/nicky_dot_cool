@@ -1,19 +1,20 @@
 #root {
-  height: 100vh;
-  width: 100vw;
+  width: 100%;
 }
 
 #main {
   display: flex;
   flex-direction: column;
   gap: 33px;
-  height: 100%;
   justify-content: space-between;
-  padding: 0 90px;
-}
-.header {
-  height: 60px;
-  width: 100%;
+  padding: 0 90px
+  background: azure;
+  background: antiqueWhite;
+  background: crimson;
+  background: darkGray;
+  background: deeppink;
+  background: bisque;
+
 }
 .footer {
   height: 60px;
@@ -47,6 +48,3 @@
   }
 }
 
-.read-the-docs {
-  color: #888;
-}
