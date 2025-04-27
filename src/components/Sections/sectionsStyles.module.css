@@ -1,3 +1,5 @@
 .wrapper {
-  height: 0px;
+  width: 100%;
+  padding: 12px 30px;
+  position: relative;
 }

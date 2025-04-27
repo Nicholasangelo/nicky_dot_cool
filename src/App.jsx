@@ -2,6 +2,7 @@
 import { Header } from "./components/Header";
 import { Welcome } from "./components/Welcome";
 import { Sections } from "./components/Sections";
+import { Tips } from "./components/Tips";
 import "./App.css";
 
 function App() {
@@ -10,7 +11,9 @@ function App() {
     <main id="main">
       <Welcome />
       <Header />
-      <Sections />
+      <Sections>
+        <Tips/>
+      </Sections>
       <footer className="footer"></footer>
     </main>
   );
