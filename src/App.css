@@ -7,14 +7,19 @@
   flex-direction: column;
   gap: 33px;
   justify-content: space-between;
-  padding: 0 90px
+  padding: 0 90px;
+  overflow-x: hidden;
   background: azure;
   background: antiqueWhite;
   background: crimson;
   background: darkGray;
   background: deeppink;
   background: bisque;
+}
 
+/* This ensures content doesn't jump when header becomes sticky */
+.sections-container {
+  position: relative;
 }
 .footer {
   height: 60px;

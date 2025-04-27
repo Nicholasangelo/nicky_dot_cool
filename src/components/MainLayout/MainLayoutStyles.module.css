@@ -1,6 +1,6 @@
 .mainLayout {
 	min-height: 100vh;
-	background-color: #f9e8cb;
+	background-color: bisque;
 	color: #1a2e44;
   }
   
@@ -8,7 +8,7 @@
 	height: 60vh;
 	overflow: hidden;
 	position: relative;
-	background-color: #f9e8cb;
+	background-color: bisque;
   }
   
   .heroImage {
@@ -18,10 +18,10 @@
   }
   
   .header {
-	background-color: #f9e8cb;
+	background-color: bisque;
 	padding: 20px;
 	text-align: center;
-	border-bottom: 2px solid #1a2e44;
+	border-bottom: 2px solid #f7fff1;
 	z-index: 10;
 	transition: all 0.3s ease;
   }
@@ -30,6 +30,7 @@
 	font-size: 2.5rem;
 	margin: 0;
 	font-weight: bold;
+	color: #4E5761;
   }
   
   .sticky {

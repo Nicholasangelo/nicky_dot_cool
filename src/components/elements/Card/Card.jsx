@@ -14,7 +14,7 @@ const Card = ({ title, description, image, comicImages = [] }) => {
     <>
       <div className={styles.card} onClick={openModal}>
         <div className={styles.imageContainer}>
-          <img src={image || "/placeholder.svg"} alt={title} className={styles.image} />
+          <img src={`./csscade${image}` || "/placeholder.svg"} alt={title} className={styles.image} />
           <div className={styles.overlay}>
             <h3 className={styles.title}>{title}</h3>
           </div>
@@ -29,7 +29,7 @@ const Card = ({ title, description, image, comicImages = [] }) => {
           <div className={styles.comicContainer}>
             {comicImages.map((img, index) => (
               <div key={index} className={styles.comicPanel}>
-                <img src={img || "/placeholder.svg"} alt={`${title} panel ${index + 1}`} />
+                <img src={`./csscade${img}` || "/placeholder.svg"} alt={`${title} panel ${index + 1}`} />
               </div>
             ))}
           </div>
