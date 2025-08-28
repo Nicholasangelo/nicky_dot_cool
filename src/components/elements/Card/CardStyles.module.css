@@ -5,14 +5,14 @@
   transition: transform 0.3s ease, box-shadow 0.3s ease;
   cursor: pointer;
   background-color: #f7fff1;
-  border: 2px solid #FFFFFF;
+  border: 6px solid #4E5761;
   border-radius: 20px;
   margin-bottom: 20px;
 }
 
 .card:hover {
   transform: translateY(-5px);
-  border: 2px solid #4E5761;
+  border: 6px solid #4E5761;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 

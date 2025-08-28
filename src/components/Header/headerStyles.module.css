@@ -13,11 +13,21 @@
 }
 
 .imageWrapper {
+  position: relative;
+  width: 100vw;
+  left: 50%;
+  right: 50%;
+  margin-left: -50vw;
+  margin-right: -50vw;
   background-image: linear-gradient(
     to bottom,
     rgb(255, 228, 196) 0% /* bisque color in RGB */,
     rgba(255, 228, 196, 0) 100% /* same color with 0 opacity */
   );
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  padding-left: 40px;
 }
 
 .imageWrapper img {
@@ -30,13 +40,6 @@
   height: 40px;
   top: 0;
   z-index: 1000;
-  background-image: linear-gradient(
-    to bottom,
-    rgb(255, 228, 196) 100% /* Solid background when sticky */,
-    rgb(255, 228, 196, 0) 100%
-  );
-  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
-  transform: translateY(0); /* Ensure it's at the top */
 }
 
 /* Placeholder is invisible but maintains layout */

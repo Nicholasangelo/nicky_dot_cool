@@ -1,6 +1,8 @@
 .mainLayout {
 	min-height: 100vh;
-	background-color: bisque;
+	display: flex;
+	flex-direction: column;
+	background: #f7f9f5;
 	color: #1a2e44;
   }
   
@@ -18,7 +20,6 @@
   }
   
   .header {
-	background-color: bisque;
 	padding: 20px;
 	text-align: center;
 	border-bottom: 2px solid #f7fff1;
@@ -42,6 +43,7 @@
   
   .content {
 	padding-top: 20px;
+	flex: 1;
   }
   
   @media (max-width: 768px) {

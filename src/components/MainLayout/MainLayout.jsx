@@ -1,6 +1,7 @@
 "use client"
 
 import styles from "./MainLayoutStyles.module.css"
+import Footer from "../Footer"
 
 const MainLayout = ({ heroImage, title, children }) => {
 
@@ -15,6 +16,8 @@ const MainLayout = ({ heroImage, title, children }) => {
       </header>
 
       <main className={styles.content}>{children}</main>
+
+      <Footer />
     </div>
   )
 }
