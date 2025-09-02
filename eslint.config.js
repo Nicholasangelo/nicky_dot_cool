@@ -6,8 +6,9 @@ import reactRefresh from "eslint-plugin-react-refresh";
 import eslintConfigPrettier from "eslint-config-prettier";
 
 export default [
+  // React/Browser files
   {
-    files: ["**/*.{js,jsx}"],
+    files: ["src/**/*.{js,jsx}"],
     ignores: ["dist"],
     languageOptions: {
       ecmaVersion: 2020,
@@ -36,6 +37,21 @@ export default [
         "warn",
         { allowConstantExport: true },
       ],
+    },
+  },
+  // Node.js config files
+  {
+    files: ["*.config.js", "*.config.mjs"],
+    languageOptions: {
+      ecmaVersion: 2020,
+      globals: globals.node,
+      parserOptions: {
+        ecmaVersion: "latest",
+        sourceType: "script",
+      },
+    },
+    rules: {
+      ...js.configs.recommended.rules,
     },
   },
 ];
